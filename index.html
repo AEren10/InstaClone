@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!-- link:css -->
+  </head>
+  <body>
+    <!-- NavBar Start -->
+    <nav class="navbar bg-body-tertiary sticky-top bg-white">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-3">
+              <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png" alt="">
+            </a>
+            <form class="d-flex mx-auto ms-5" role="search">
+              <input class="form-control me-2" type="search" placeholder="Ara" aria-label="Search" style="height: 28px; width: 216px">
+            </form>
+            <div class="icons me-5 mt-2 d-none d-sm-block">
+              <i class="nav-item fa-solid fa-house fa-lg me-3 mt-1"></i>
+              <i class="nav-item fab fa-facebook-messenger fa-lg me-3 mt-1"></i>
+              <i class="nav-item far fa-compass fa-lg me-3 mt-1"></i>
+              <i class="nav-item fa-regular fa-heart fa-lg me-3 mt-1"></i>
+            </div>
+        </div>
+      </nav>
+    <!-- NavBar End -->
+    <!-- Container Start -->
+
+      <div class="cards">
+        <div class="story">
+          <h1>Storyler kısmı</h1>
+        </div>
+        <div class="card" style="width: 550px; height: 600px;">
+            <div class="card-body">
+              <h5 class="card-title"><img class="profıl" src="https://img.wattpad.com/d9588e8aba0e82cb5d07d96d530485825dfb8ee0/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f536a353478494358436d445941413d3d2d372e313634316132353438643431653962333837353339303438313731352e6a7067?s=fit&w=720&h=720" alt=""  width="35" height="35"> cengizcmataraci </h5>
+            </div>
+            <img src="https://blog.biletbayi.com/wp-content/uploads/2019/12/rize.jpg" class="card-img-top" alt="...">
+            <div class="card-alt">
+              <div class="cardicons">
+              <i class="far fa-heart fa-2x me-2 ms-2 mt-1"></i>
+              <i class="far fa-comment fa-2x me-2"></i>
+              <i class="far fa-paper-plane fa-2x me-2 "></i>
+              <i class="far fa-bookmark fa-2x ms-5" style=" position: relative; left: 320px;  "></i>
+            </div>
+              <div class="yorums" style="position: relative; right: 15px;">
+              <ul>
+                <li class="list-group-item mt-3"> <img src=""><strong>furkantolgayuce </strong> ve <strong>42 diğer kişi</strong> beğendi</li>
+                <li class="list-group-item mt-2"><strong>cengizcmataraci </strong>  Burası Rize! Harika bir cennet!</li>
+                <p style="font-size: 12px mt-3">15 yorumun tümünü gör..</p>
+                <li class="list-group-item mb-2"><strong>furkantolgayuce </strong> Abi çok güzelmiş yaa! Bir gün götürürsün artık bizi de:)</li>
+                <li class="list-group-item mt-2"><strong>elonrmuskkThat's</strong> wonderful view bro! I always want to travel Rize...</li>
+                <p style="font-size: 10px mt-4">10 SAAT ÖNCE</p>
+              </div>
+              <div class="yorumekle">
+                  <span style="position: relative; top: 15px; left: 18px;">Yorum Ekle... <span style="color:#0095f6; opacity: 50%">Paylaş</span></span>
+              </div>
+              </ul>
+          </div>
+        </div>
+
+
+        <div class="card" style="width: 550px; height: 600px; margin-top: 35px;">
+          <div class="card-body">
+            <h5 class="card-title"><img class="profıl" src="data:image/jpeg;base64,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" alt="" width="35" height="35"> cengizcmataraci </h5>
+          </div>
+          <img src="https://blog.biletbayi.com/wp-content/uploads/2019/12/rize.jpg "  class="card-img-top" alt="...">
+          <div class="card-alt">
+            <div class="cardicons">
+            <i class="far fa-heart fa-2x me-2 ms-2 mt-1"></i>
+            <i class="far fa-comment fa-2x me-2"></i>
+            <i class="far fa-paper-plane fa-2x me-2 "></i>
+            <i class="far fa-bookmark fa-2x ms-5" style=" position: relative; left: 320px;  "></i>
+          </div>
+            <div class="yorums" style="position: relative; right: 15px;">
+            <ul>
+              <li class="list-group-item mt-3"> <img src=""><strong>furkantolgayuce </strong> ve <strong>42 diğer kişi</strong> beğendi</li>
+              <li class="list-group-item mt-2"><strong>cengizcmataraci </strong>  Burası Rize! Harika bir cennet!</li>
+              <p style="font-size: 12px mt-3">15 yorumun tümünü gör..</p>
+              <li class="list-group-item mb-2"><strong>furkantolgayuce </strong> Abi çok güzelmiş yaa! Bir gün götürürsün artık bizi de:)</li>
+              <li class="list-group-item mt-2"><strong>elonrmuskkThat's</strong> wonderful view bro! I always want to travel Rize...</li>
+              <p style="font-size: 10px mt-4">10 SAAT ÖNCE</p>
+            </div>
+            <div class="yorumekle">
+                <span style="position: relative; top: 15px; left: 18px;">Yorum Ekle... <span style="color:#0095f6; opacity: 50%">Paylaş</span></span>
+            </div>
+            </ul>
+        </div>
+      </div>
+
+
+      <div class="card" style="width: 550px; height: 600px; margin-top: 35px;">
+        <div class="card-body">
+          <h5 class="card-title"><img class="profıl" src="https://www.technopat.net/sosyal/eklenti/711803/" width="35" height="35" alt=""> cengizcmataraci </h5>
+        </div>
+        <img src="https://blog.biletbayi.com/wp-content/uploads/2019/12/rize.jpg" class="card-img-top" alt="...">
+        <div class="card-alt">
+          <div class="cardicons">
+          <i class="far fa-heart fa-2x me-2 ms-2 mt-1"></i>
+          <i class="far fa-comment fa-2x me-2"></i>
+          <i class="far fa-paper-plane fa-2x me-2 "></i>
+          <i class="far fa-bookmark fa-2x ms-5" style=" position: relative; left: 320px;  "></i>
+        </div>
+          <div class="yorums" style="position: relative; right: 15px;">
+          <ul>
+            <li class="list-group-item mt-3"> <img src=""><strong>furkantolgayuce </strong> ve <strong>42 diğer kişi</strong> beğendi</li>
+            <li class="list-group-item mt-2"><strong>cengizcmataraci </strong>  Burası Rize! Harika bir cennet!</li>
+            <p style="font-size: 12px mt-3">15 yorumun tümünü gör..</p>
+            <li class="list-group-item mb-2"><strong>furkantolgayuce </strong> Abi çok güzelmiş yaa! Bir gün götürürsün artık bizi de:)</li>
+            <li class="list-group-item mt-2"><strong>elonrmuskkThat's</strong> wonderful view bro! I always want to travel Rize...</li>
+            <p style="font-size: 10px mt-4">10 SAAT ÖNCE</p>
+          </div>
+          <div class="yorumekle">
+              <p style="position: relative; top: 15px; left: 18px;">Yorum Ekle... <span style="color:#0095f6; opacity: 50%">Paylaş</span></p>
+          </div>
+          </ul>
+      </div>
+    </div>
+
+
+      </div>
+    <!-- Container End -->
+
+      <script src="https://kit.fontawesome.com/b073536cc7.js" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+
